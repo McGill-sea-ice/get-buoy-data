@@ -14,7 +14,7 @@ path = '/storage/common/buoy-data/get-buoy-data/'
 # define scope for permissions on gmail account
 #SCOPES = ['https://mail.google.com/'] # full access
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'] # read only
-our_email = 'cabp.mcgill@gmail.com'
+our_email = 'your.name@gmail.com'
 
 # read file that has info on when was this script last executed
 if os.path.isfile(path + 'last_access'):
