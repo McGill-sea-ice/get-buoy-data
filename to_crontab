@@ -1,10 +1,10 @@
 ################################################################################
-### This is an example of how the different bash scripts in SLICEop/auto/    ###
+### This is an example of how get-buoy-data.sh                               ###
 ### should be scheduled to run with cron                                     ###
 ################################################################################
 
 SHELL=/bin/bash
-MAILTO=jrieck@mcgill.ca
+MAILTO=name@mail.ca
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
 root_dir=/storage2/common/get-buoy-data/
